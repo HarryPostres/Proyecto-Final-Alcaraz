@@ -1,0 +1,121 @@
+/* productos */
+.productos-container {
+  padding: 5px, 5px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+
+.productos-container h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  z-index: 1;
+  position: relative;
+  margin-top: 3px;
+
+}
+
+
+.productos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+
+.card-producto {
+  flex: 0 0 260px;
+  background-image: url('./src/img/CardProducto.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; 
+  margin-top: 10px;
+}
+
+
+.card-producto h3,
+.precio {
+  background-image: url('./src/img/Text.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 1.2rem;
+}
+
+
+.precio {
+  font-size: 1.5rem;
+  color: rgb(73, 73, 73);
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  text-align: center;
+}
+
+
+.card-producto h3 {
+  padding: 5px 5px;
+  height: 30px;
+  font-size: 25px;
+}
+
+
+.card-botones {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: auto;
+}
+
+
+.btn-agregar,
+.btn-detalles {
+  background-image: url('./src/img/Btn-add.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+.btn-agregar {
+  color: rgb(72, 255, 0);
+  font-family: "Permanent Marker", cursive;
+}
+
+.btn-agregar:hover {
+  background-color: #b47c0e;
+  color: red;
+}
+
+.btn-detalles {
+  background-image: url('./src/img/Buttons.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Permanent Marker", cursive;
+  background-color: #6da3d9;
+  color: rgb(0, 0, 0);
+}
+
+.btn-detalles:hover {
+  color: blue;
+}
