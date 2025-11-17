@@ -1,3 +1,8 @@
+¡¡¡¡IMPORTANTISIMO!!!!
+Para iniciar la pagina antes hacer "npm install" en la consola antes de "npm run dev" para instalar las dependencias y que todo funcione.
+
+
+
 DESCRIPCIÓN DEL PROYECTO
 
 Este es un sitio de venta de cajas con productos extraños, pensado para que definitivamente no quieras usar tus datos reales.
